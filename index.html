@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -78,13 +78,16 @@
         </div>
 
         <div class="table-container">
+            <div class="table-header">
+                <h3>Processing History</h3>
+                <input type="date" id="dateFilter" onchange="handleDateFilter()" class="date-filter">
+            </div>
             <table>
                 <thead>
                     <tr>
                         <th>Date</th>
                         <th>Time</th>
                         <th>File Name</th>
-                        <th>Progress</th>
                         <th>Status</th>
                     </tr>
                 </thead>
