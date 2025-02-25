@@ -53,6 +53,26 @@ form button:hover {
     background: #764ba2;
 }
 
+/* Update form links to look like buttons */
+form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form p a {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #764ba2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+form p a:hover {
+    background: #667eea;
+}
+
 .hidden {
     display: none !important;
 }
@@ -113,12 +133,34 @@ form button:hover {
     font-weight: bold;
 }
 
+/* Table Styles */
 .table-container {
     margin: 2rem;
     background: white;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow-x: auto;
+}
+
+/* Table header with date filter */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.date-filter {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.table-header h3 {
+    color: #333;
+    font-size: 1.2rem;
 }
 
 table {
